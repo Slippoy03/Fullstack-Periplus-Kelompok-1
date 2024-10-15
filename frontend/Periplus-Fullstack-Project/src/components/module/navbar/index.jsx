@@ -17,7 +17,7 @@ const Navbar = ({ jumbotron }) => {
           show ? "translate-y-0" : "-translate-y-full"
         } font-poppins !z-50`}
       >
-        <div className="bg-main-red shadow-md xl:h-20 min-h-full xl:px-[15%] md:px-10 px-5 py-3 flex flex-col xl:flex-row justify-around xl:items-center gap-x-0 gap-y-2 xl:gap-x-2">
+        <div className="bg-green-600 shadow-md xl:h-20 min-h-full xl:px-[15%] md:px-10 px-5 py-3 flex flex-col xl:flex-row justify-around xl:items-center gap-x-0 gap-y-2 xl:gap-x-2">
           <NavLogo open={open} setOpen={setOpen} />
           {/* list yang ada di hamburger menu */}
           <NavMobile open={open} />
