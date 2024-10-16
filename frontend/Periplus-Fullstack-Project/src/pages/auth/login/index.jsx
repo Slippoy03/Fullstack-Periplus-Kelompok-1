@@ -23,8 +23,7 @@ export default function Login() {
     setShow("password");
   };
 
-  const apiURL =
-    "https://fullstack-periplus-kelompok-1-i2dcdk366-slippoy03s-projects.vercel.app/api/login";
+  const apiURL = "https://periplus-backend.vercel.app/api/login";
 
   const handleLogin = async (values) => {
     setLoading(true);

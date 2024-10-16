@@ -9,8 +9,7 @@ import axios from "axios";
 
 export default function Register() {
   const navigate = useNavigate();
-  const apiURL =
-    "https://fullstack-periplus-kelompok-1-i2dcdk366-slippoy03s-projects.vercel.app/api/register";
+  const apiURL = "https://periplus-backend.vercel.app/api/register";
   const config = {
     headers: {
       "Access-Control-Allow-Origin": "*",

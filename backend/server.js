@@ -16,8 +16,7 @@ const startServer = async () => {
     const app = express();
 
     const corsOptions = {
-      origin:
-        "https://periplus-frontend-837y50pjq-slippoy03s-projects.vercel.app",
+      origin: "https://periplus-frontend.vercel.app/",
       methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
       credentials: true,
       optionSuccessStatus: 200,
